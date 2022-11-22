@@ -1,0 +1,31 @@
+.list {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+}
+
+.list__item {
+    padding: 10px;
+    justify-content: left;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+    padding: 10px;
+}
+
+.list__button {
+    background-color: #4CAF50;
+    border: none;
+    /* margin: 2px; */
+}
+
+.list__button--done {
+    background-image: url("../images/check.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.list__button--remove {
+    background-color: #FF405B;
+    border: none;
+}

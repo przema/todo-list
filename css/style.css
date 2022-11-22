@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #F0F0F0;
+    align-content: center;
+    padding: 0px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: white;
+    padding: 5px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+.container__header {
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container__withTasks {
+    background-color: white;
+    padding: 5px 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.tasks {
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+    margin-top: 2px;
+}
+

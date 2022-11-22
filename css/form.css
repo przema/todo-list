@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.form__field {
+    flex-basis: 70%;
+    border: 1px solid #F0F0F0;
+    padding: 8px;
+    margin: 10px;
+}
+
+.form__button {
+    flex-basis: 30%;
+    background-color: teal;
+    border: none;
+    padding: 5px;
+    height: 40px;
+    color: white;
+    font-weight: 200;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 60%, 25%);
+}
+
+@media (max-width: 767px) {
+    .form {
+        flex-wrap: wrap;
+    }
+
+    .form__field {
+        flex-basis: 100%;
+    }
+
+    .form__button {
+        flex-basis: 100%;
+    }
+}
+
