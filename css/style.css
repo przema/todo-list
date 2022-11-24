@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
 }
 
 *, ::after, ::before {
@@ -13,35 +13,23 @@ html {
     padding: 0px 40px;
     max-width: 1000px;
     margin: 0 auto;
+    font-family: 'Lato' sans-serif;
+    word-break: break-word;
 }
 
 .container {
     background-color: white;
     padding: 5px 10px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 10px auto;
     margin-bottom: 2px;
 }
 
 .container__header {
     padding: 2px;
+    padding-bottom: 10px;
     font-size: 18px;
     font-weight: 700;
-}
-
-.container__withTasks {
-    background-color: white;
-    padding: 5px 10px;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 2px;
-}
-
-.tasks {
-    list-style: none;
-    background-color: white;
-    padding: 10px;
-    margin-top: 2px;
+    border-bottom: 2px solid #F0F0F0;
 }
 
