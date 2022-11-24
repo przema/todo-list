@@ -1,15 +1,15 @@
 .form {
     display: flex;
-    align-items: center;
-    padding: 5px;
+    align-items: center;  
     margin: 0 auto;
+    background-color: white;
 }
 
 .form__field {
     flex-basis: 70%;
     border: 1px solid #F0F0F0;
     padding: 8px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .form__button {
@@ -39,4 +39,3 @@
         flex-basis: 100%;
     }
 }
-
