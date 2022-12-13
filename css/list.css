@@ -16,20 +16,30 @@
 }
 
 .list__button {
-    background-color: #4CAF50;
+    background-color: hsl(122, 39%, 49%);
+    color: white;
     border: none;
     width: 30px;
     height: 30px;
     padding: 0;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .list__button--done {
-    background-image: url("../images/check.png");
-    background-size: cover;
-    background-position: center;
+    background-color: hsl(122, 39%, 49%);
 }
 
 .list__button--remove {
     background-color: #FF405B;
-    border: none;
+    color: white;
+    transition: 1s;
+}
+
+.list__button--done:hover {
+    background-color: hsl(122, 39%, 25%);
+}
+
+.list__button--remove:hover {
+    background-color: hsl(352, 100%, 35%);
 }
