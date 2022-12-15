@@ -1,43 +1,33 @@
 .form {
-    display: flex;
-    align-items: center;  
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
     margin: 0 auto;
     background-color: white;
 }
 
 .form__field {
-    flex-basis: 80%;
-    border: 1px solid #F0F0F0;
+    border: 2px solid #F0F0F0;
     padding: 8px;
-    margin: 10px 10px 10px 0;
+    margin: 0;
 }
 
 .form__button {
-    flex-basis: 20%;
     background-color: teal;
     border: none;
-    padding: 5px;
-    height: 40px;
+    padding: 12px;
     color: white;
     transition: 0.5s;
 }
 
 .form__button:hover {
     background-color: hsl(180, 60%, 25%);
-    transform: scale(1.02);
+    transform: scale(1.03);
     cursor: pointer;
 }
 
 @media (max-width: 767px) {
     .form {
-        flex-wrap: wrap;
-    }
-
-    .form__field {
-        flex-basis: 100%;
-    }
-
-    .form__button {
-        flex-basis: 100%;
+        grid-template-columns: 1fr;
     }
 }
