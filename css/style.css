@@ -19,17 +19,19 @@ html {
 
 .container {
     background-color: white;
-    padding: 5px 10px;
     max-width: 1000px;
-    margin: 10px auto;
-    margin-bottom: 2px;
+    margin: 10px 0;
 }
 
 .container__header {
-    padding: 2px;
-    padding-bottom: 10px;
+    padding: 20px;
+    margin: 0;
     font-size: 18px;
     font-weight: 700;
     border-bottom: 2px solid #F0F0F0;
+}
+
+.container__body {
+    padding: 20px;
 }
 
