@@ -7,7 +7,7 @@ This was one of my exercises in the Java Script course.
 
 ## Screenshot
 
-![screenshot](images/screenshot.png)
+![screenshot](images/screenshot2.png)
 
 ## DEMO
 
