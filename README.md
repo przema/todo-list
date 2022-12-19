@@ -7,9 +7,9 @@ This was one of my exercises in the Java Script course.
 
 ## Updates
 
-+Added two additional buttons (Show/Hide completed tasks & Mark all tasks as complete)
-+Added transform effect to all buttons
-+Refactored according to immutability
++Added two additional buttons (Show/Hide completed tasks & Mark all tasks as complete),
++Added transform effect to all buttons,
++Refactored according to immutability,
 
 ## Screenshot
 
